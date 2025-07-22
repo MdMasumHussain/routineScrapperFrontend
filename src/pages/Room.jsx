@@ -2,7 +2,7 @@ import React from "react";
 import Dept from "../component/layout/Dept";
 import CommonButton from "../component/layout/CommonButton";
 import { useState } from "react";
-import { useRoom } from "../hooks/useroom";
+import { useRoom } from "../hooks/useRoom";
 
 function Room() {
    const [dept, setDept] = useState("");
